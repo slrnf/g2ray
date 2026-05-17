@@ -21,3 +21,10 @@ tested on shecan (free plan). so if you can see any of these ips, it'll work for
 - 50.7.5.83
 - 63.141.252.203
 - 94.130.50.12
+
+run this code once time :
+
+chmod +x .devcontainer/keepalive.sh
+git add .
+git commit -m "improve codespaces uptime"
+git push
