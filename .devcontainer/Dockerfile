@@ -1,3 +1,4 @@
+RUN apt update && apt install -y supervisor
 FROM debian:bookworm-slim
 
 COPY install.sh /app/install.sh
